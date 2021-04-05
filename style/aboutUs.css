@@ -108,29 +108,31 @@ header.sticky ul li a:hover {
     font-size: 2rem;
 }
 
-.title{
+/* .title{
     position: absolute;
-    bottom: 70px;
-    left: 80px;
-}
+    bottom: 10px;
+    left: 100px;
+} */
 
-.title h3 {
+/* .title h3 {
+
+
     font-family: 'Oswald';
-    font-size: 2rem;
+    font-size: 1rem;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-transform: uppercase;
     font-weight: bold;
     z-index: 1;
-}
+} */
 
-.title p{
+/* .title p{
     color: #fff;
     font-size: 1rem;
     word-spacing: 1rem;
     opacity: 0.8;
     margin-bottom: 20PX;
-}
+} */
 
 .title button{
     padding: 10px 15px;
@@ -178,7 +180,7 @@ header.sticky ul li a:hover {
     object-fit: cover;
     object-position: 0px -165px;
     
-    /* opacity:0.5; */
+    opacity:0.5;
     z-index: -51;
     /* transition: 2s; */
     margin-bottom: 10px;
@@ -198,7 +200,7 @@ header.sticky ul li a:hover {
 
 
 .searchBox{
-    width: 20%;
+  width: 20%;
     height: 40px;
     /* background-color: #fff; */
     border-radius: 30px;
@@ -342,3 +344,281 @@ header.sticky ul li a:hover {
   /* .hero h3 {
 
   } */
+
+.aboutus{
+  /* font-size: 30px; */
+  color: #e75480;
+}
+
+#parallax{
+    width: 30px;
+}
+
+#movieName{
+    font-size: 50px;
+   
+
+    
+    position: absolute; 
+    top: 0px;
+    bottom: 300px;
+}
+
+#categories{
+    /* position: absolute;
+    bottom: 80%;
+    left: 50px; */
+
+    font-size: 40px;
+    /* margin-right: 7%;
+    /* margin-bottom: %; */
+    /* margin-left: 2.1%;
+    margin-top: 2%; */
+    /* word-spacing: 0 */
+    
+}
+#pad{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+#cover{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+.aboutall{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20%;
+    left: 7%;
+
+    margin-right: 20%;
+}
+
+.aboutf{
+    color: #e75480;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 3%;
+}
+
+.aboutp{
+    font-size: 30px;
+}
+
+#movieName{
+    color: #e75480;
+    font-weight: bold;
+    position: absolute;
+    top: 70%;
+    left: 7%;
+}
+
+#categories{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 80%;
+    left: 7%;
+
+    margin-right: 25%;
+}
+
+/* .cont{
+    border-radius: 25px
+} */
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3b5999;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #e75480;
+    color: white;
+  }
+    
+.sectionCards{
+    
+    margin: 0%;
+    margin-top: 60px;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    font-size: 10px;
+}
+
+.licard{
+text-transform: uppercase;
+font-size: 3.5rem;
+letter-spacing: 3px;
+margin-right: .3px;
+margin-bottom: 5rem;
+text-align: center;
+color: #333;
+position: relative;
+}
+
+.team::after{
+    content: "";
+    width: 20rem;
+    height: 0.8rem;
+    background-color: #e75480;
+    position: absolute;
+    bottom: -11rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+
+}
+
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.cards{
+    width: 20rem; 
+    /* 32 */
+    background-color: #ebeef8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+    box-shadow: 5rem 5rem 3rem rgba(0, 0, 0, 0.2);
+
+}
+
+.imgCard{
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+
+}
+
+.teamImg{
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -11rem;
+    z-index: 999;
+    border: .5rem solid #ebeef8;
+
+}
+
+.teamName{
+    font-size: 2.5rem;
+    color: #333;
+    margin: 1.5rem 0;
+}
+
+.TeamMember{
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+
+.me{
+    font-size: 1.5rem;
+    margin: 1.5rem ;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+}
+
+.BOT{
+    padding: 1rem 2.5rem;
+    background-color: #e75480;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 1.4rem;
+    transition: all .5s;
+    text-decoration: none;
+
+}
+
+.BOT:hover{
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, 0.2);
+}
+.BOT:active{
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.ulcard{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.licard{
+    font-size: 3rem;
+
+}
+
+.team{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+@media screen and (min-width:700px){
+    .cardWrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center ;
+
+    }
+    .cards{
+        margin: 3rem;
+        width: 30%;
+    }
+}
+ 
